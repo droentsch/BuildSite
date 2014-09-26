@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\NapaBuild\Organon\BuildSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>07/02/2014 10:57:28</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>07/02/2014 10:57:28</publishTime>
+    </File>
+    <File Include="bin/App_Web_03kp0x55.dll">
+      <publishTime>06/30/2014 11:10:16</publishTime>
+    </File>
+    <File Include="bin/App_Web_0450q1fv.dll">
+      <publishTime>04/04/2014 16:58:04</publishTime>
+    </File>
+    <File Include="bin/App_Web_1sxu3urd.dll">
+      <publishTime>04/04/2014 18:25:54</publishTime>
+    </File>
+    <File Include="bin/App_Web_3m0v3knu.dll">
+      <publishTime>06/27/2014 13:09:10</publishTime>
+    </File>
+    <File Include="bin/App_Web_4oiv5jkq.dll">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/App_Web_4xahk2u3.dll">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/App_Web_bb3ufqly.dll">
+      <publishTime>04/04/2014 16:58:04</publishTime>
+    </File>
+    <File Include="bin/App_Web_bfvloobw.dll">
+      <publishTime>06/27/2014 13:09:12</publishTime>
+    </File>
+    <File Include="bin/App_Web_bjrvlfny.dll">
+      <publishTime>04/04/2014 16:58:02</publishTime>
+    </File>
+    <File Include="bin/App_Web_cjy5qgkz.dll">
+      <publishTime>07/01/2014 17:13:24</publishTime>
+    </File>
+    <File Include="bin/App_Web_fzy2tjte.dll">
+      <publishTime>04/04/2014 18:25:54</publishTime>
+    </File>
+    <File Include="bin/App_Web_gofuykct.dll">
+      <publishTime>06/30/2014 11:10:15</publishTime>
+    </File>
+    <File Include="bin/App_Web_hc2r0a4z.dll">
+      <publishTime>06/27/2014 13:09:11</publishTime>
+    </File>
+    <File Include="bin/App_Web_i0zpaavd.dll">
+      <publishTime>04/04/2014 16:58:03</publishTime>
+    </File>
+    <File Include="bin/App_Web_iwtmuzkd.dll">
+      <publishTime>04/04/2014 18:25:53</publishTime>
+    </File>
+    <File Include="bin/App_Web_ix5lp0y4.dll">
+      <publishTime>07/02/2014 10:57:28</publishTime>
+    </File>
+    <File Include="bin/App_Web_jcytzmrg.dll">
+      <publishTime>07/01/2014 17:13:25</publishTime>
+    </File>
+    <File Include="bin/App_Web_k3i0jjfi.dll">
+      <publishTime>07/01/2014 17:13:26</publishTime>
+    </File>
+    <File Include="bin/App_Web_ka2picjx.dll">
+      <publishTime>07/01/2014 17:13:26</publishTime>
+    </File>
+    <File Include="bin/App_Web_kocnka4d.dll">
+      <publishTime>07/01/2014 17:13:24</publishTime>
+    </File>
+    <File Include="bin/App_Web_lktjuw4q.dll">
+      <publishTime>06/27/2014 13:09:11</publishTime>
+    </File>
+    <File Include="bin/App_Web_lvmb0ykq.dll">
+      <publishTime>04/04/2014 18:25:53</publishTime>
+    </File>
+    <File Include="bin/App_Web_mqevixaj.dll">
+      <publishTime>04/04/2014 18:25:53</publishTime>
+    </File>
+    <File Include="bin/App_Web_ndtjp3gm.dll">
+      <publishTime>06/30/2014 11:10:18</publishTime>
+    </File>
+    <File Include="bin/App_Web_nf04zcgo.dll">
+      <publishTime>06/30/2014 11:10:15</publishTime>
+    </File>
+    <File Include="bin/App_Web_nfkhj3uv.dll">
+      <publishTime>06/27/2014 13:09:11</publishTime>
+    </File>
+    <File Include="bin/App_Web_obuzjzbw.dll">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="bin/App_Web_ogh0r05e.dll">
+      <publishTime>04/04/2014 16:58:05</publishTime>
+    </File>
+    <File Include="bin/App_Web_oiwwlmog.dll">
+      <publishTime>06/27/2014 13:09:10</publishTime>
+    </File>
+    <File Include="bin/App_Web_om13ww5g.dll">
+      <publishTime>07/01/2014 17:13:25</publishTime>
+    </File>
+    <File Include="bin/App_Web_oo3r3u33.dll">
+      <publishTime>06/30/2014 11:10:16</publishTime>
+    </File>
+    <File Include="bin/App_Web_p3n3mwti.dll">
+      <publishTime>04/04/2014 16:58:03</publishTime>
+    </File>
+    <File Include="bin/App_Web_pfk1qquf.dll">
+      <publishTime>06/27/2014 13:09:12</publishTime>
+    </File>
+    <File Include="bin/App_Web_r0n3wix0.dll">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/App_Web_rsaseo4x.dll">
+      <publishTime>07/01/2014 17:13:26</publishTime>
+    </File>
+    <File Include="bin/App_Web_rtswnxdo.dll">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/App_Web_sebtv2b2.dll">
+      <publishTime>06/30/2014 11:10:17</publishTime>
+    </File>
+    <File Include="bin/App_Web_sfckizm3.dll">
+      <publishTime>06/30/2014 11:10:17</publishTime>
+    </File>
+    <File Include="bin/App_Web_t54lurpf.dll">
+      <publishTime>04/04/2014 18:25:52</publishTime>
+    </File>
+    <File Include="bin/App_Web_u31nttas.dll">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/App_Web_wchvguh1.dll">
+      <publishTime>04/04/2014 18:25:55</publishTime>
+    </File>
+    <File Include="bin/App_Web_wfh4iqa0.dll">
+      <publishTime>06/30/2014 11:10:17</publishTime>
+    </File>
+    <File Include="bin/App_Web_xkedinty.dll">
+      <publishTime>07/01/2014 17:13:27</publishTime>
+    </File>
+    <File Include="bin/App_Web_yovu2brz.dll">
+      <publishTime>04/04/2014 16:58:04</publishTime>
+    </File>
+    <File Include="bin/App_Web_ypb45ila.dll">
+      <publishTime>06/27/2014 13:09:10</publishTime>
+    </File>
+    <File Include="bin/App_Web_yplksmzo.dll">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/App_Web_zqqr1lpx.dll">
+      <publishTime>04/04/2014 18:25:54</publishTime>
+    </File>
+    <File Include="bin/App_Web_ztat5npl.dll">
+      <publishTime>04/04/2014 16:58:03</publishTime>
+    </File>
+    <File Include="bin/BuildFoundation.dll">
+      <publishTime>06/30/2014 11:09:51</publishTime>
+    </File>
+    <File Include="bin/BuildFoundation.pdb">
+      <publishTime>06/30/2014 11:09:51</publishTime>
+    </File>
+    <File Include="bin/buildinprogress.cshtml.3092db60.compiled">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.3092db60.compiled">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.96f6e57f.compiled">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.a8d08dba.compiled">
+      <publishTime>07/02/2014 10:57:28</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.abce1fbe.compiled">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.c1529c63.compiled">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/default.cshtml.d3c29f03.compiled">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/EcmaScript.NET.dll">
+      <publishTime>09/10/2013 17:46:02</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/09/2012 17:47:22</publishTime>
+    </File>
+    <File Include="bin/error.cshtml.639c3968.compiled">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationServer.Caching.Client.dll">
+      <publishTime>07/31/2013 09:27:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationServer.Caching.Core.dll">
+      <publishTime>07/31/2013 09:27:31</publishTime>
+    </File>
+    <File Include="bin/NapaServerUtilityLib.dll">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/NapaServerUtilityLib.pdb">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/status.cshtml.3092db60.compiled">
+      <publishTime>07/02/2014 10:57:29</publishTime>
+    </File>
+    <File Include="bin/WebBuildLib.dll">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/WebBuildLib.pdb">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/WebBuildSite.dll">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/WebBuildSite.pdb">
+      <publishTime>06/30/2014 11:09:52</publishTime>
+    </File>
+    <File Include="bin/Yahoo.Yui.Compressor.Build.MsBuild.dll">
+      <publishTime>09/10/2013 17:46:01</publishTime>
+    </File>
+    <File Include="bin/Yahoo.Yui.Compressor.dll">
+      <publishTime>09/10/2013 17:46:02</publishTime>
+    </File>
+    <File Include="bin/_layout.cshtml.639c3968.compiled">
+      <publishTime>07/02/2014 10:57:30</publishTime>
+    </File>
+    <File Include="bin/_viewstart.cshtml.65a2d1ee.compiled">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Content/BuildInProgress_Style.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Home.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/construction.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/gb.png">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/hardrock.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/in_progress_header.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/loader.gif">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/ocean.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/old-paper.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/spectrum.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/Stripes.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/TheWallStreetBull.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/wood-texture.jpg">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Images/wood_1.png">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/PrimeCustom.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/PrimeDemo.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/PrimeDev.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/PrimeProd.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/PrimeRelCand.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/Shared.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Content/StatusStyle.css">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Models/xml/Builds.xml">
+      <publishTime>07/02/2014 10:57:14</publishTime>
+    </File>
+    <File Include="Models/xml/Permissions.xml">
+      <publishTime>06/27/2014 13:08:33</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>07/02/2014 10:57:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Modernizr-2.5.3.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.Builder.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.builds.js">
+      <publishTime>07/01/2014 17:13:10</publishTime>
+    </File>
+    <File Include="Scripts/Web.buildsCustom.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.buildsDemo.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.buildsProd.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.buildsRC.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.enhance.js">
+      <publishTime>03/12/2014 16:56:22</publishTime>
+    </File>
+    <File Include="Scripts/Web.global.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.model.js">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.view.js">
+      <publishTime>04/04/2014 15:49:38</publishTime>
+    </File>
+    <File Include="Scripts/_Web.builds.js">
+      <publishTime>04/04/2014 17:31:53</publishTime>
+    </File>
+    <File Include="Views/Home/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeCustom/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeDemo/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeDev/BuildInProgress.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeDev/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeDev/Status.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeProd/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/PrimeRC/Default.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/09/2014 10:40:32</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/02/2014 10:57:31</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/30/2014 11:10:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

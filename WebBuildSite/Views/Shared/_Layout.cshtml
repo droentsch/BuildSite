@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("styles", false)
+    <link href="@Url.Content("~/Content/Shared.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Web.global.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Web.enhance.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Web.model.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Web.view.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Web.Builder.js")" type="text/javascript"></script>
+    @RenderSection("scripts", false)
+</head>
+
+<body>
+    <table class="mainMenu shadow">
+        <tr>
+            <td>
+                <a href="@Url.Action("Default", "PrimeDev")">Dev Branch</a>
+            </td>
+            <td>
+                <a href="@Url.Action("Default", "PrimeRC")">RC Branch</a>
+            </td>
+            @{if (ViewBag.IsAuthorizedToViewDemoBuilds == true)
+            {
+                <td>
+                    <a href="@Url.Action("Default", "PrimeDemo")">Demo Branch</a>
+                </td>
+            }
+            }
+            @{if (ViewBag.IsAuthorizedToViewCustomBuilds == true)
+            {
+                <td>
+                    <a href="@Url.Action("Default", "PrimeCustom")">Custom Branch</a>
+                </td>
+            }
+            }
+            @{if (ViewBag.IsAuthorizedToViewProductionBuilds == true)
+            {
+                <td>
+                    <a href="@Url.Action("Default", "PrimeProd")">Production Branch</a>
+                </td>
+            }
+            }
+
+        </tr>
+    </table>
+    @RenderBody()
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A9E29A08-D7FA-4706-8F7D-C54467238234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{8763D64B-8CCE-4200-A78C-14382D200F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBuildSite", "WebBuildSite\WebBuildSite.csproj", "{80904B1D-ACBE-4D25-9EFC-CFFE52C45666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildFoundation", "BuildFoundation\BuildFoundation.csproj", "{5620343B-F08F-4E43-A3E2-E9905F21D5DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBuildLib", "WebBuildLib\WebBuildLib.csproj", "{74199C37-C145-4FBC-976F-5CBAD2EE1869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerUtilitySite", "ServerUtility\ServerUtilitySite.csproj", "{D18B5646-F7E6-469B-8C9A-4FA4AD8A97B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapaServerUtilityLib", "NapaServerUtilityLib\NapaServerUtilityLib.csproj", "{4EA32865-D435-4F85-9FF6-99B479886D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeSystemNotificationService", "PrimeSystemNotificationService\PrimeSystemNotificationService.csproj", "{9BF20DD2-F756-4EA0-90BF-DC4C0589E787}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://napateam:8080/tfs/napa
+		SccProjectUniqueName0 = WebBuildSite\\WebBuildSite.csproj
+		SccProjectTopLevelParentUniqueName0 = WebBuild.sln
+		SccProjectName0 = WebBuildSite
+		SccAuxPath0 = http://napateam:8080/tfs/napa
+		SccLocalPath0 = WebBuildSite
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80904B1D-ACBE-4D25-9EFC-CFFE52C45666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80904B1D-ACBE-4D25-9EFC-CFFE52C45666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80904B1D-ACBE-4D25-9EFC-CFFE52C45666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80904B1D-ACBE-4D25-9EFC-CFFE52C45666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5620343B-F08F-4E43-A3E2-E9905F21D5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5620343B-F08F-4E43-A3E2-E9905F21D5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5620343B-F08F-4E43-A3E2-E9905F21D5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5620343B-F08F-4E43-A3E2-E9905F21D5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74199C37-C145-4FBC-976F-5CBAD2EE1869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74199C37-C145-4FBC-976F-5CBAD2EE1869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74199C37-C145-4FBC-976F-5CBAD2EE1869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74199C37-C145-4FBC-976F-5CBAD2EE1869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18B5646-F7E6-469B-8C9A-4FA4AD8A97B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18B5646-F7E6-469B-8C9A-4FA4AD8A97B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18B5646-F7E6-469B-8C9A-4FA4AD8A97B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18B5646-F7E6-469B-8C9A-4FA4AD8A97B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA32865-D435-4F85-9FF6-99B479886D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA32865-D435-4F85-9FF6-99B479886D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA32865-D435-4F85-9FF6-99B479886D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA32865-D435-4F85-9FF6-99B479886D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF20DD2-F756-4EA0-90BF-DC4C0589E787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF20DD2-F756-4EA0-90BF-DC4C0589E787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF20DD2-F756-4EA0-90BF-DC4C0589E787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF20DD2-F756-4EA0-90BF-DC4C0589E787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80904B1D-ACBE-4D25-9EFC-CFFE52C45666} = {A9E29A08-D7FA-4706-8F7D-C54467238234}
+		{5620343B-F08F-4E43-A3E2-E9905F21D5DE} = {8763D64B-8CCE-4200-A78C-14382D200F52}
+	EndGlobalSection
+EndGlobal

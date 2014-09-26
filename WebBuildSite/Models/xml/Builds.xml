@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BuildConfigs>
+  <!--Prime-Dev-->
+  <!--Continuous Integration-->
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_PrimeDB_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbcidev</LogFilePrefix>
+    <Description>Continuous Integration build for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_PrimeWF_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfcidev</LogFilePrefix>
+    <Description>Continuous Integration build for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_PrimeMVC_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvccidev</LogFilePrefix>
+    <Description>Continuous Integration build for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>PrimeAPI</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_PrimeAPI_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primeapicidev</LogFilePrefix>
+    <Description>Continuous Integration build for the Web API project</Description>
+    <IncludeInBulkPush>false</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_PrimeLINK_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkcidev</LogFilePrefix>
+    <Description>Continuous Integration build for the PrimeLINK</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Dev</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEV\Napa_FileTransfer_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransfercidev</LogFilePrefix>
+    <Description>Continuous Integration build for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <!--END Continuous Integration-->
+  <!--QA-->
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>Dev</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\Dev\Napa_PrimeDB_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbqarc</LogFilePrefix>
+    <Description>QA push for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>Dev</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\Dev\Napa_PrimeWF_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfqarc</LogFilePrefix>
+    <Description>QA push for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>Dev</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\Dev\Napa_PrimeMVC_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvcqarc</LogFilePrefix>
+    <Description>QA push for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>Dev</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\Dev\Napa_PrimeLINK_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkqa</LogFilePrefix>
+    <Description>QA push for the PrimeLINK project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>Dev</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\Dev\Napa_FileTransfer_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransferqarc</LogFilePrefix>
+    <Description>Continuous Integration for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>false</IncludeInBulkPush>
+  </BuildConfig>
+  <!--END Prime-Dev-->
+  <!--Prime-RC-->
+  <!--Continuous Integration-->
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>RC</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\RC\Napa_PrimeDB_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbcirc</LogFilePrefix>
+    <Description>Continuous Integration build for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>RC</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\RC\Napa_PrimeWF_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfcirc</LogFilePrefix>
+    <Description>Continuous Integration build for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>RC</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\RC\Napa_PrimeMVC_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvccirc</LogFilePrefix>
+    <Description>Continuous Integration build for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>RC</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\RC\Napa_PrimeLINK_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkcirc</LogFilePrefix>
+    <Description>Continuous Integration build for the PrimeLINK</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>RC</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\RC\Napa_FileTransfer_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransfercirc</LogFilePrefix>
+    <Description>Continuous Integration build for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <!--END Continuous Integration-->
+  <!--END Prime-RC-->
+  <!--Staging-->
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeDB_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbStaging</LogFilePrefix>
+    <Description>Staging push for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeWF_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfStaging</LogFilePrefix>
+    <Description>Staging push for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeMVC_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvcStaging</LogFilePrefix>
+    <Description>Staging push for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\STAGING\Napa_PrimeLINK_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkstaging</LogFilePrefix>
+    <Description>Staging push for the PrimeLINK project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <!--Prime-Demo-->
+  <!--Continuous Integration-->
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Demo</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEMO\Napa_PrimeDB_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbcidemo</LogFilePrefix>
+    <Description>Continuous Integration build for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Demo</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEMO\Napa_PrimeWF_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfcidemo</LogFilePrefix>
+    <Description>Continuous Integration build for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Demo</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEMO\Napa_PrimeMVC_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvccidemo</LogFilePrefix>
+    <Description>Continuous Integration build for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Demo</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEMO\Napa_PrimeLINK_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkcidemo</LogFilePrefix>
+    <Description>Continuous Integration build for the PrimeLINK</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>Demo</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\DEMO\Napa_FileTransfer_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransfercidemo</LogFilePrefix>
+    <Description>Continuous Integration build for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <!--END Continuous Integration-->
+  <!--END Prime-Demo-->
+  <!--Prime-PROD-->
+  <!--Continuous Integration-->
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>PROD</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\PROD\Napa_PrimeDB_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbciprod</LogFilePrefix>
+    <Description>Continuous Integration build for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>PROD</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\PROD\Napa_PrimeWF_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfciprod</LogFilePrefix>
+    <Description>Continuous Integration build for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>PROD</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\PROD\Napa_PrimeMVC_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvcciprod</LogFilePrefix>
+    <Description>Continuous Integration build for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>PROD</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\PROD\Napa_PrimeLINK_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkciprod</LogFilePrefix>
+    <Description>Continuous Integration build for the PrimeLINK</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>CI</Level>
+    <Type>PROD</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\CI\PROD\Napa_FileTransfer_CI_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransferciprod</LogFilePrefix>
+    <Description>Continuous Integration build for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <!--END Continuous Integration-->
+  <!--QA-->
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>PROD</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\PROD\Napa_PrimeDB_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbqaprod</LogFilePrefix>
+    <Description>QA push for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>PROD</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\PROD\Napa_PrimeWF_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfqaprod</LogFilePrefix>
+    <Description>QA push for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>PROD</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\PROD\Napa_PrimeMVC_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvcqaprod</LogFilePrefix>
+    <Description>QA push for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>PROD</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\PROD\Napa_PrimeLINK_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkqaprod</LogFilePrefix>
+    <Description>QA push for the PrimeLINK project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>QA</Level>
+    <Type>PROD</Type>
+    <Name>FileTransferService</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\QA\PROD\Napa_FileTransfer_QA_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>filetransferqaprod</LogFilePrefix>
+    <Description>Continuous Integration for the external parties file transfer windows service</Description>
+    <IncludeInBulkPush>false</IncludeInBulkPush>
+  </BuildConfig>
+  <!--Staging-->
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeDB</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeDB_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primedbStaging</LogFilePrefix>
+    <Description>Staging push for the database project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeWF</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeWF_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primewfStaging</LogFilePrefix>
+    <Description>Staging push for the webforms project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeMVC</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\Staging\Napa_PrimeMVC_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primemvcStaging</LogFilePrefix>
+    <Description>Staging push for the MVC project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+  <BuildConfig>
+    <Level>Staging</Level>
+    <Type>Release</Type>
+    <Name>PrimeLINK</Name>
+    <Path>C:\Organon\Build\Code\msbuild\XML\STAGING\Napa_PrimeLINK_Staging_Build.xml</Path>
+    <LogPath>C:\Organon\Build\Code\scripts</LogPath>
+    <LogFilePrefix>primelinkstaging</LogFilePrefix>
+    <Description>Staging push for the PrimeLINK project</Description>
+    <IncludeInBulkPush>true</IncludeInBulkPush>
+  </BuildConfig>
+</BuildConfigs>
+ 

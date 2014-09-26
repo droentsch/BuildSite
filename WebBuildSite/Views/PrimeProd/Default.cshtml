@@ -1,0 +1,150 @@
+﻿@{
+    ViewBag.Title = "NapaBuild PRODUCTION";
+}
+<div class="home_page_container">
+    <div class="page_title">
+        <h2>@ViewBag.Title</h2>
+        <a href="@Url.Action("Status", "PrimeDev")" target="statuslog">View the status log</a>
+    </div>
+    <div id="all_builds">
+        <div id="CI_builds">
+            <h2>Continuous Integration</h2>
+            <div class="build_button shadow look_at_me all">
+                Build All
+            </div>
+            <div class="build_button shadow PrimeDB">
+                PrimeDB
+            </div>
+            <div class="build_button shadow PrimeWF">
+                PrimeWF
+            </div>
+            <div class="build_button shadow PrimeMVC">
+                PrimeMVC
+            </div>
+            <div class="build_button shadow PrimeLINK">
+                PrimeLINK
+            </div>
+            <div class="build_button shadow FileTransfer">
+                PrimeComm Services
+            </div>
+            <div class="per_build_controls">
+                <div class="control_button shadow purgeCICache">
+                    Purge Cache
+                </div>
+                <div class="control_button shadow resetCIIIS">
+                    Recycle App Pools
+                </div>
+            </div>
+        </div>
+        @{if (ViewBag.IsAuthorizedToViewRCQABuilds == true)
+        {
+            <div id="QA_builds">
+                <h2>QA</h2>
+                <div class="build_button shadow look_at_me all">
+                    Push All (Web and DB)
+                </div>
+                <div class="build_button shadow PrimeDB">
+                    PrimeDB
+                </div>
+                <div class="build_button shadow PrimeWF">
+                    PrimeWF
+                </div>
+                <div class="build_button shadow PrimeMVC">
+                    PrimeMVC
+                </div>
+                <div class="build_button shadow PrimeLINK">
+                    PrimeLINK
+                </div>
+                <div class="build_button except_for_me shadow FileTransfer">
+                    PrimeComm Services
+                </div>
+                <div class="per_build_controls">
+                    <div class="control_button shadow purgeQACache">
+                        Purge Cache
+                    </div>
+                    <div class="control_button shadow resetQAIIS">
+                        Recycle App Pools
+                    </div>
+                </div>
+            </div>
+        }
+        }
+        <!--
+        @{if (ViewBag.IsAuthorizedToViewStagingBuilds == true)
+        {
+            <div id="Staging_builds">
+                <h2>Staging (Prime.Napa.Com)</h2>
+                <div class="build_button shadow look_at_me all">
+                    Push All (Web and DB)
+                </div>
+                <div class="build_button shadow PrimeDB">
+                    PrimeDB
+                </div>
+                <div class="build_button shadow PrimeWF">
+                    PrimeWF
+                </div>
+                <div class="build_button shadow PrimeMVC">
+                    PrimeMVC
+                </div>
+                <div class="build_button shadow PrimeAPI">
+                    PrimeAPI
+                </div>
+                <div class="build_button shadow PrimeLINK">
+                    PrimeLINK
+                </div>
+                <div class="build_button except_for_me shadow PrimeAPI">
+                    PrimeComm Services
+                </div>
+            </div>
+        }
+        }-->
+    </div>
+    <div class="page_background">
+        <div class="page_title">
+            <h2>@ViewBag.Title</h2>
+            <a href="@Url.Action("Status", "Home")" target="statuslog">View the status log</a>
+        </div>
+        <!--
+        <div id="build_modification_controls">
+            <h3>Build Modifications</h3>
+            <div class="modification_button shadow add_recipients">
+                Add Notification Recipients
+            </div>
+            <div id="add_recipients_input" class="input_text" style="display: none" contenteditable="true"></div>
+            </input>
+        </div>
+            -->
+        <div class="loader" style="display: none">
+        </div>
+        <div id="modal_overlay" style="display: none">
+        </div>
+        <div class="message_box shadow" style="display: none">
+            <div id="header">
+            </div>
+            <div id="close">
+                x
+            </div>
+            <div id="body">
+                <div class="datetime" style="display: none">
+                </div>
+                <div class="detail" style="display: none">
+                </div>
+                <div class="links" style="display: none">
+                </div>
+                <div class="other" style="display: none">
+                </div>
+            </div>
+        </div>
+        <script>
+            $(Web.Prodbuilds.init);
+        </script>
+    </div>
+</div>
+@section styles
+    {
+    <link href="@Url.Content("~/Content/PrimeProd.css")" rel="stylesheet" type="text/css" />
+}
+@section scripts
+    {
+    <script src="@Url.Content("~/Scripts/Web.buildsProd.js")" type="text/javascript"></script>
+}

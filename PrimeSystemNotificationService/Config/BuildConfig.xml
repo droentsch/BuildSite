@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NotificationConfig>
+  <LogPath>Log\BuildLog.txt</LogPath>
+  <ErrorEmailFromAddress>Build_Notification_Manager@napa.com</ErrorEmailFromAddress>
+  <FlagType>FileExists</FlagType>
+  <FlagFile>C:\Organon\Build\Code\runtime\buildNoticeFlag</FlagFile>
+  <NotificationForm>MailFileForm</NotificationForm>
+  <Interval>15</Interval>
+  <NotificationFile>C:\Organon\Build\Code\runtime\BuildMail.xml</NotificationFile>
+  <DeleteXmlFileAfterUse>true</DeleteXmlFileAfterUse>
+</NotificationConfig>

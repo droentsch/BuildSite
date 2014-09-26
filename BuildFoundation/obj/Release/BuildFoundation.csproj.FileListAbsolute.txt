@@ -1,0 +1,4 @@
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\bin\Release\BuildFoundation.dll
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\bin\Release\BuildFoundation.pdb
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\obj\Release\BuildFoundation.dll
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\obj\Release\BuildFoundation.pdb

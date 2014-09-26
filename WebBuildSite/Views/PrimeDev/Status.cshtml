@@ -1,0 +1,22 @@
+﻿@model WebBuildLib.State.Logs
+@{
+    ViewBag.Title = "Status";
+}
+
+<div class="page-wrapper">
+    <h2>Status</h2>
+
+    <table class="log">
+        @foreach (var entry in Model)
+        {
+            <tr>
+                <td class="time">@entry.TimeStamp</td>
+                <td>@entry.Message</td>
+            </tr>     
+        }
+    </table>
+</div>
+@section styles
+    {
+    <link href="@Url.Content("~/Content/StatusStyle.css")" rel="stylesheet" type="text/css" />
+}

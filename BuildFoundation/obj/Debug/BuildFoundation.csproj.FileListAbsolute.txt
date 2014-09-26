@@ -1,0 +1,5 @@
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\bin\Debug\BuildFoundation.dll
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\bin\Debug\BuildFoundation.pdb
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\obj\Debug\BuildFoundation.dll
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\obj\Debug\BuildFoundation.pdb
+D:\Prime\Napa\Projects\BuildSite\BuildSite\BuildFoundation\obj\Debug\BuildFoundation.csprojResolveAssemblyReference.cache

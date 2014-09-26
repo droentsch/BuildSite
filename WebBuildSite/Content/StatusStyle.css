@@ -1,0 +1,61 @@
+﻿body { 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #EEE2E2; 
+	margin: 0px;
+	padding: 0px;
+	background: url(images/ocean.jpg); 
+	/* background-position: center; */
+	/* background-attachment: fixed; */
+	background-size: 1935px;
+	/* background-position-x: 950%; */
+}
+	
+	
+td { 
+	font: 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 0px; 
+	text-align: justify; 
+	width: 200px;
+	border-bottom: 1px solid #000000;
+    font-size:15px
+}
+table.log
+{
+    width:700px;
+}
+	
+abbr {
+	font-weight: bold;
+	color: #e18700;
+	text-transform: uppercase; }
+	
+.summary abbr {
+	color: #ffff99;
+	font-weight: bold; }
+	
+h2 { 
+	letter-spacing: 1px; 
+	margin-bottom: 0px; }
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #909528; }
+	
+a:visited { 
+	font-weight: normal; 
+	text-decoration: none;
+	color: #909528; }
+	
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #646729; }
+.page-wrapper { 
+	padding: 0px;  
+	margin-left: 300px;
+    background-color:transparent;
+	padding-left: 40px;
+	padding-top: 40px;
+	width: 800px;
+    font-size:20px;
+}
